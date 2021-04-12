@@ -31,7 +31,7 @@ n, target = list(map(int,input().split()))
 # 전체 원소 입력 받기
 array = list(map(int,input().split()))
 
-# 이진 탐색 수행 결과 출력
+# 이진 탐색 수행 결과 출력ㄴ
 result = binary_search(array, target, 0, n-1)
 if result == None:
     print("원소가 존재하지 않습니다.")
